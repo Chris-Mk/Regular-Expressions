@@ -52,7 +52,6 @@ public class ChoreWars {
                 sum += Character.getNumericValue(validCommand.charAt(i));
             }
         }
-
         return sum;
     }
 }
