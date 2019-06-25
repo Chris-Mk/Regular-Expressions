@@ -10,7 +10,6 @@ public class RepeatStrings {
         StringBuilder result = new StringBuilder();
 
         for (String el : inputArray) {
-
             result.append(el.repeat(el.length()));
         }
 
